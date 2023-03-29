@@ -1,0 +1,18 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql:///springbootvue
+  redis:
+    host: localhost
+    port: 6379
+
+logging:
+  level:
+    com.example: debug
+
+mybatis-plus:
+  type-aliases-package: com.example.*.entity
